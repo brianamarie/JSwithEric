@@ -1,25 +1,9 @@
-describe("About Javascript Primitives, Level One Start Here", function() {
+describe("EXTRA CONTENT with Arrays(Solve if you don't know anything about Arrays yet, or go back to Functions if interested)", function() {
 
 //Ready? This test is mostly here just to hide all of the others before answers are revealed.
 //Flip the answer to "YES!"  
 
   var ready = "no";
-
-//What are the 6 types of Javascript Primitives?
-  
-  var primitiveArray = ['FILL_ME_IN', 'FILL_ME_IN', 'FILL_ME_IN', 'FILL_ME_IN', 'FILL_ME_IN', 'FILL_ME_IN'];
-
-//Intro to Numbers
-
-  
-
-
-
-
-
-
-
-
 
 
 //Tests
@@ -27,18 +11,12 @@ describe("About Javascript Primitives, Level One Start Here", function() {
     expect(ready).toEqual("YES!");
   });
 
-
-  it("What are the 6 types of Javascript Primitives?", function() {
-    var answerArray = ["number", "string", "object", "boolean", "undefined", "null"]
-    expect(answerArray.sort()).toEqual(primitiveArray.sort());
-  });
-
-  it("Should Understand Arrays", function () {
+  it("Building Arrays", function () {
 
     var emptyArray = [];
     //typeof() should return the primitive type of the argument passed in, as a string.
     //example: typeof(5) === "number";
-    expect(typeof(emptyArray)).toBe(answer1); 
+    expect(typeof(emptyArray)).toBe(FILL_ME_IN); 
     expect(emptyArray.length).toBe(FILL_ME_IN);
 
     var multiTypeArray = [0, 1, "two", function () { return 3; }, {value1: 4, value2: 5}, [6, 7]];
