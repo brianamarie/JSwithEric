@@ -1,4 +1,4 @@
-describe("About Javascript Primitives, Level One Start Here", function() {
+describe("About Javascript Primitives", function() {
 
 //Ready? This test is mostly here just to hide all of the others before answers are revealed.
 //Flip the answer to "YES!"  
