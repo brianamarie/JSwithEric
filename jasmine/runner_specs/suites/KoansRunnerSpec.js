@@ -1,4 +1,4 @@
-describe("KoansRunner", function() {
+describe("TestRunner", function() {
   var env;
   var reporter;
   var body;

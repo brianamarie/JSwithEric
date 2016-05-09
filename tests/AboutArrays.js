@@ -1,9 +1,44 @@
-describe("About Arrays", function() {
+describe("About Javascript Primitives, Level One Start Here", function() {
 
-  //We shall contemplate truth by testing reality, via spec expectations.
-  it("should create arrays", function() {
+//Ready? This test is mostly here just to hide all of the others before answers are revealed.
+//Flip the answer to "YES!"  
+
+  var ready = "no";
+
+//What are the 6 types of Javascript Primitives?
+  
+  var primitiveArray = ['FILL_ME_IN', 'FILL_ME_IN', 'FILL_ME_IN', 'FILL_ME_IN', 'FILL_ME_IN', 'FILL_ME_IN'];
+
+//Intro to Numbers
+
+  
+
+
+
+
+
+
+
+
+
+
+//Tests
+  it("Should be Ready", function() {
+    expect(ready).toEqual("YES!");
+  });
+
+
+  it("What are the 6 types of Javascript Primitives?", function() {
+    var answerArray = ["number", "string", "object", "boolean", "undefined", "null"]
+    expect(answerArray.sort()).toEqual(primitiveArray.sort());
+  });
+
+  it("Should Understand Arrays", function () {
+
     var emptyArray = [];
-    expect(typeof(emptyArray)).toBe(FILL_ME_IN); //A mistake? - http://javascript.crockford.com/remedial.html
+    //typeof() should return the primitive type of the argument passed in, as a string.
+    //example: typeof(5) === "number";
+    expect(typeof(emptyArray)).toBe(answer1); 
     expect(emptyArray.length).toBe(FILL_ME_IN);
 
     var multiTypeArray = [0, 1, "two", function () { return 3; }, {value1: 4, value2: 5}, [6, 7]];
@@ -13,9 +48,8 @@ describe("About Arrays", function() {
     expect(multiTypeArray[4].value1).toBe(FILL_ME_IN);
     expect(multiTypeArray[4]["value2"]).toBe(FILL_ME_IN);
     expect(multiTypeArray[5][0]).toBe(FILL_ME_IN);
-  });
 
-  it("should understand array literals", function () {
+
     var array = [];
     expect(array).toEqual([]);
 
