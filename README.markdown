@@ -11,11 +11,11 @@ Javascript language and functional programming in general.
 
 Order:
 
-Javascript Primitives
-Bonus: Skip Down to AboutArrays for the JS Koans on Arrays. Only do this if all concepts are very unfamiliar.
-IntroFunctions
-LearningAboutHigherOrderFunctions
-WritingHigherOrderFunctions
+Javascript Primitives<br>
+Bonus: Skip Down to AboutArrays for the JS Koans on Arrays. Only do this if all concepts are very unfamiliar.<br>
+IntroFunctions<br>
+LearningAboutHigherOrderFunctions<br>
+WritingHigherOrderFunctions<br>
 
 ## Running the Koans
 Simply navigate to the Javascript Koans folder using a file browser, and
